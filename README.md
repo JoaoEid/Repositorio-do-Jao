@@ -1,2 +1,2 @@
-# https://joaoeid.github.io/Repositorio-do-Jao/
+# https://github.com/JoaoEid/Repositorio-do-Jao/
 só um estudante  
