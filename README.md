@@ -1,4 +1,2 @@
 # https://joaoeid.github.io/Repositorio-do-Jao/
-só um estudante 
-
-:)
+Aqui serão realizadas as tarefas de Prog Web 1 :D
