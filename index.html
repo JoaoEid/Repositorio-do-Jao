@@ -1,122 +1,37 @@
 <html>
   <head>
-    <title> João Eid Dias Pinto </title>  
-    <style>
-      .hobby {
-        display: flex;
-        flex-direction: row;
-      }
-      .hobby figure {
-        margin: auto;
-      }
-      .hobby figure figcaption {
-        font-family: sans-serif;
-        font-size: medium;
-      }
-      .rotina {
-        display: flex;
-        flex-direction: row;
-      }
-      .rotina figure {
-        margin: auto;
-      }
-      .rotina figure figcaption {
-        font-family: sans-serif;
-        font-size: medium;
-      }
-      header {
-        background-image: url("https://tudosobrehospedagemdesites.com.br/site/wp-content/uploads/2013/10/o-que-e-html-destaque-1.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        height: 600px;
-      }
-      ol {
-        list-style-type: lower-roman;
-      }  
-      ul {
-        list-style-type: square;
-      }
-      a {
-        text-decoration: none;
-        color: #FF0000;
-      }   
-      a:visited {
-        color: #0000FF;
-      }
-      a:hover {
-        color: #800080;
-      }
-      a:active {
-        color: #FFFF00;
-      }
-      nav ul {
-        list-style-type: none;
-      }
-      nav li {
-        display: inline-block;
-      }
-    </style>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0"
+          
+    <title> Inscrição </title>  
   </head>
   <body>
-    <header>
-      <h1> Registro de meus hobbies e minha rotina diária + links </h1> 
-    </header>
-    <h2> Links para navegação na página </h2>
-    <ul>
-      <li> <a href="#meusHobbies">Meus hobbies</a></li>
-      <li> <a href="#minhaRotina">Minha rotina diária</a></li>
-    </ul>
-    <h2 id="meusHobbies"></h2>
-    <h2> Meus hobbies: </h2>
-    <ul>
-      <li> Assistir a vídeos no Youtube; </li>
-      <li> Jogar basquete; </li>
-      <li> Desenhar; </li>
-      <li> Jogar videogames. </li>
-    </ul>
-    <h2> Páginas de dicas e ideias para hobbies </h2>
-    <p> Você pode acessar a seguinte página e o seguinte site abaixo para saber de algumas dicas e ideias para hobbies criativos e saudáveis para sua diversão e seu relaxamento </p>
-    <ul>
-      <li> Página para se inspirar em <a href="hobbies.html">ideias de hobbies saudáveis e criativos</a></li>
-      <li> Site com <a href="https://segredosdomundo.r7.com/hobbies-44-dicas/">44 hobbies pelos quais você pode se interessar</a></li>
-    </ul>
-    <section class=hobby>
-      <figure>
-        <figcaption>Hobbies</figcaption>
-        <img src="https://brasil.cambly.com/wp-content/uploads/2020/09/hobbies-em-ingles-aprenda-com-cambly.jpg" alt="Imagem sobre hobbies" height="310" width="380">
-      </figure>
-      <figure>
-        <figcaption>Lazer</figcaption>
-        <img src="https://www.marinha.mil.br/saudenaval/sites/www.marinha.mil.br.saudenaval/files/ST_saude_lazer_noticias_redes.jpg" alt="Imagem sobre lazer"> 
-      </figure>
-    </section>
-    <h2 id="minhaRotina"></h2>
-    <h2> Minha rotina diária: </h2>
-    <ol>
-      <li> Trocar a roupa; </li>
-      <li> Tomar café da manhã; </li>
-      <li> Escovar os dentes; </li>
-      <li> Participar de alguma aula síncrona que estiver agendada para a manhã; </li>
-      <li> Almoçar e, logo depois, escovar os dentes; </li>
-      <li> Fazer as tarefas pendentes que os professores nos passaram; </li>
-      <li> Descontrair realizando alguma atividade de que gosto, como assistir séries ou desenhar; </li>
-      <li> Jantar e escovar os dentes pela última vez ao dia; </li>
-      <li> Dormir. </li>
-    </ol>
-    <h2> Páginas de dicas e ideias para criação de rotina </h2>
-    <p> Se quiser saber mais sobre a criação de uma rotina bem-organizada e prazerosa, pode acessar a seguinte página e o seguinte site </p>
-    <ul>
-      <li> Página para aprender a <a href="rotina.html">montar uma rotina saudável</a></li>
-      <li> Site para adquirir <a href="https://www.drogarialiviero.com.br/blog/rotina-saudavel/">dicas para manter uma boa rotina</a></li>
-    <section class=rotina>
-      <figure>
-        <figcaption>Rotina</figcaption>
-        <img src="https://casadaconsultoria.com.br/wp-content/uploads/2015/06/rotina-diaria-300x300.jpg" alt="Desenho sobre rotina diária">
-      </figure>
-      <figure>
-        <figcaption>Responsabilidades diárias</figcaption>
-        <img src="http://clinicacemep.com.br/wp-content/uploads/otimizar-o-tempo-1080x675-1-1030x644.png" alt="Imagem sobre responsabilidades do dia a dia" height="310" width="450">
-      </figure>
-    </section>
-  </body>
+    
+    <div>
+      <h1> Inscrições para o curso de Programação Web I </h1>
+      <p> Registre suas informações </p>
+      <br>
+    </div>
+    
+    <form>
+      <fieldset>
+        <div>
+          <label>Nome completo</label>
+          <input type "text" name="Nome completo" id="Nome completo">
+        </div>
+        
+        <div>
+          <label>Email</label>
+          <input type "text" name="Email" id="Email">
+        </div>
+      </fieldset>
+      
+      <div>
+        <label>Matrícula</label>
+        <input type "text" name="Matrícula" id="Matrícula">
+      </div>
+    </form>
+</body>
 </html>
+      
+    
