@@ -1,1 +1,65 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+#titulo {
+  font-family: fantasy;
+  color: #00BFFF;
+  margin-left: 5%;
+}
+
+#subtitulo {
+  font-family: fantasy;
+  color: #2F4F4F;
+  margin-left: 7%;
+}
+
+fieldset {
+  border-style: outset;
+  border-width: thin;
+}
+
+#body {
+  background-color: #98FB98;
+  font-family: monospace;
+  font-size: 1em;
+  margin-left: 20%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+input, select, textarea, button {
+  border-radius: 5px;
+  border-style: ridge;
+  border_width: thin;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.4em;
+  color: #000080;
+  display: block;
+}
+
+fieldset.grupo .campo {
+  float: inline;
+  margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+  padding: 0.4em;
+  border: 2px inset #00FFFF;
+  box-shadow: 3px 3px 3px rgb(61, 81, 244);
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+  border-style: inset;
+{
+  
 
