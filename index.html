@@ -2,37 +2,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0"
-    <link rel="stylesheet" type="text/css" href="
+    <link rel="stylesheet" type="text/css" href="inscricoes.css"
     <title>Inscrição</title>  
   </head>
   <body>
     
-    <div>
+    <div class="campo">
       <h1 id="titulo">Inscrições para o curso de Programação Web I </h1>
       <p id="subtitulo">Registre suas informações </p>
       <br>
     </div>
     
     <form>
-      <fieldset>
-        <div>
+      <fieldset class="grupo">
+        <div class="campo">
           <label>Nome completo</label>
-          <input type "text" name="Nome completo" id="Nome completo">
+          <input type="text" name="Nome completo" id="Nome completo">
         </div>
         
         <div>
           <label>Email</label>
-          <input type "email" name="Email" id="Email">
+          <input type="email" name="Email" id="Email">
         </div>
       </fieldset>
       
       <div>
         <label>Matrícula</label>
-        <input type "text" name="Matrícula" id="Matrícula">
+        <input type="text" name="Matrícula" id="Matrícula">
       </div>
       <br>
-      <div>
-        <label>Turma</label>
+      <div clas="campo">
+        <label for="Turma">Turma</label>
         <select id="Turma">
           <option selected disabled value="">Selecione uma opção</option>
           <option>1° Ano</option>
@@ -54,8 +54,8 @@
         </label>
       </div>  
       <br>
-      <fieldset>
-        <div>
+      <fieldset class="grupo">
+        <div id="check">
           <label>Em qual dessas linguagens já programou?</label><br>
           <input type="checkbox" id="linguagem1" name="linguagem1" value="HTML">
           <label for "linguagem1">HTML</label>
@@ -72,7 +72,7 @@
         </div>
       </fieldset>  
       <br>
-      <div>
+      <div clas="campo">
         <label>Conte-nos suas expectativas para o curso de Programação Web I</label><br>
         <textarea row="6" style="width: 26em" id="Expectativas" nome="Expectativas"></textarea>
       </div>
