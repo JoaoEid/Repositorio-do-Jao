@@ -3,6 +3,11 @@
   padding: 0; 
 }
 
+form {
+  background-color: #ADD8E6;
+  display: center;
+}
+
 #titulo {
   font-family: fantasy;
   color: #00BFFF;
