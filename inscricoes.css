@@ -81,10 +81,6 @@ button {
   margin-right: -50%;
 }
 
-#submit {
-  text-color: #4B0082;
-}
-
 button:hover {
   background: #00CED1;
   box-shadow: outset 3px 3px 3px rgba(0, 0, 0, 0.8);
