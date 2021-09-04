@@ -79,6 +79,9 @@ button {
   top: 80%;
   left: 50%;
   margin-right: -50%;
+}
+
+#submit {
   text-color: #4B0082;
 }
 
