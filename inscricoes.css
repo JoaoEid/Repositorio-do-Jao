@@ -3,7 +3,12 @@
   padding: 0; 
 }
 
-form {
+head {
+  background-color: #90EE90;
+  display: center;
+}
+
+body {
   background-color: #ADD8E6;
   display: center;
 }
