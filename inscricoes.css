@@ -3,16 +3,6 @@
   padding: 0; 
 }
 
-head {
-  background-color: #90EE90;
-  display: center;
-}
-
-body {
-  background-color: #ADD8E6;
-  display: center;
-}
-
 #titulo {
   font-family: fantasy;
   color: #00BFFF;
