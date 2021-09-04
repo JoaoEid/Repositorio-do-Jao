@@ -79,6 +79,7 @@ button {
   top: 80%;
   left: 50%;
   margin-right: -50%;
+  text-color: #4B0082;
 }
 
 button:hover {
