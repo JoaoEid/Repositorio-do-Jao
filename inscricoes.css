@@ -89,6 +89,8 @@ fieldset.grupo .campo {
 
 #aumentar, #diminuir {
   position: center;
+  padding: 0.25em 0.75em;
+  margin-bottom: 0.5em;
 }
   
 #check {
