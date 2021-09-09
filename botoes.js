@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', colocarBotoes)
 let tamanho = 2;
 function mudartamanho() {
   h1 = document.querySelector("h1");
