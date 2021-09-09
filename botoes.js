@@ -16,10 +16,10 @@ function diminuirtamanho() {
 }
 function colocarBotoes() {
   div = document.createElement("div")
-  div.innerHTML = ´
+  div.innerHTML = `
     <button onclick="aumentartamanho()">+</button>
     <button onclick="diminuirtamanho()">-</button>
-  ´
+  `
   document.body.append(div);
 }
 
