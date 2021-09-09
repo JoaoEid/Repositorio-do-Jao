@@ -4,33 +4,28 @@
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="inscricoes.css" media="screen">
     <title>Inscrição</title>  
-    <style type="text/css">
-    h1 {
-      font-size: 20px;
-    }
-    <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function () {
-                var elementBody = document.querySelector('h1');
-                var elementBtnIncreaseFont = document.getElementById('increase-font');
-                var elementBtnDecreaseFont = document.getElementById('decrease-font');
-                var fontSize = 80;
-                var increaseDecrease = 10;
-                elementBtnIncreaseFont.addEventListener('click', function(event) {
-                    fontSize = fontSize + increaseDecrease;
-                    elementBody.style.fontSize = fontSize + '%';
-                });
-                elementBtnDecreaseFont.addEventListener('click', function(event) {
-                    fontSize = fontSize - increaseDecrease;
-                    elementBody.style.fontSize = fontSize + '%';
-                });
-            })
+    <script>
+      let tamanho = 2;
+      function mudartamanho(tamanho) {
+        h1 = document.querySelector("h1");
+        h1.style.fontSize = `${tamanho}em`;
+      }
+      function aumentartamanho() {
+        tamanho += 2;
+        mudartamanho(tamanho);
+      }
+      function diminuirtamanho() {
+        tamanho -= 2;
+        mudartamanho(tamanho);
+      }
     </script>
+    
   </head>
   
   <body id="body">
-      <div class="btn-container">
-        <button name="increase-font" id="increase-font" title="aumentar fonte">+</button>
-        <button name="decrease-font" id="decrease-font" title="diminuir fonte">-</button>
+      <div>
+        <button onclick="aumentartamanho()">+</button>
+        <button onclick="diminuirtamanho()">-</button>
       </div>
     
     <div class="campo">
