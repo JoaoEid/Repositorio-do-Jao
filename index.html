@@ -6,17 +6,17 @@
     <title>Inscrição</title>  
     <script>
       let tamanho = 2;
-      function mudartamanho(tamanho) {
+      function mudartamanho() {
         h1 = document.querySelector("h1");
         h1.style.fontSize = `${tamanho}em`;
       }
       function aumentartamanho() {
         tamanho += 2;
-        mudartamanho(tamanho);
+        mudartamanho();
       }
       function diminuirtamanho() {
         tamanho -= 2;
-        mudartamanho(tamanho);
+        mudartamanho();
       }
     </script>
     
