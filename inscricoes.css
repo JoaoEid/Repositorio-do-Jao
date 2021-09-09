@@ -66,7 +66,7 @@ fieldset.grupo .campo {
   background: #836FFF;
 }
 
-button {
+#submit {
   font-size: 1.1em;
   background: #87CEFA;
   border: 0;
@@ -81,7 +81,7 @@ button {
   margin-right: -50%;
 }
 
-button:hover {
+#submit:hover {
   background: #00CED1;
   box-shadow: outset 3px 3px 3px rgba(0, 0, 0, 0.8);
   text-shadow: 1px;
