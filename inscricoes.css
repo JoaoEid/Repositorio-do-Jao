@@ -87,7 +87,7 @@ fieldset.grupo .campo {
   text-shadow: 1px;
 }
 
-#aumentar, #diminuir {
+button {
   position: center;
   padding: 0.25em 0.75em;
   margin-bottom: 0.5em;
